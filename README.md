@@ -1,7 +1,7 @@
 # frechetAEE
 
 This repository contains C++ code that can be integrated with R using the `Rcpp` package.  
-The code computes an asymptotically efficient estimator for the Fréchet distribution, \( FR(\theta_1, \theta_2) \),  
+The code computes an asymptotically efficient estimator for the Fréchet distribution, $FR(\theta_1, \theta_2)$,  
 whose probability density function (PDF) is given by:
 
 
