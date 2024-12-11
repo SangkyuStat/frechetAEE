@@ -1,6 +1,6 @@
 # frechetAEE
 
-This repository provides an R software for an asymptotical efficient estimator for the Frechet distribution, $FR(\theta_1, \theta_2)$, 
+This repository provides an R software for an asymptotically efficient estimator for the Frechet distribution, $FR(\theta_1, \theta_2)$, 
 where the PDF of the distribution is as follows:
 
 $$
@@ -20,4 +20,4 @@ X = rfrechet(n, location = 0)
 
 est = ce_frechet_cpp(X)
 ```
-Then `est` provides the estimates for $\theta_1$ and $\theta_2$.
+Then `est` provides the estimates for $\theta_1$ and $\theta_2$. This function is much fast and stable than the maximum likelihood estimator (MLE) such as `distributionsrd::frechet.mle`.
