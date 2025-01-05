@@ -16,6 +16,6 @@ library(frechetAEE)
 n = 100
 X = rfrechet(n, location = 0, shape = 3)
 
-est = ce_frechet(X)
+est = ce_frechet_cpp(X)
 ```
 Then `est` provides the estimates for $\theta_1$ and $\theta_2$. This function is much fast and stable than the maximum likelihood estimator (MLE) such as `distributionsrd::frechet.mle`.
