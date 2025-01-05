@@ -11,12 +11,11 @@ We provide a simple example for utilizing the function:
 ```
 library(Rcpp)
 library(VGAM)
-
-sourceCpp("frechet_est.cpp")
+library(frechetAEE)
 
 n = 100
-X = rfrechet(n, location = 0)
+X = rfrechet(n, location = 0, shape = 3)
 
-est = ce_frechet_cpp(X)
+est = ce_frechet(X)
 ```
 Then `est` provides the estimates for $\theta_1$ and $\theta_2$. This function is much fast and stable than the maximum likelihood estimator (MLE) such as `distributionsrd::frechet.mle`.
