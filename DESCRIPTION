@@ -1,11 +1,10 @@
 Package: frechetAEE
 Type: Package
-Title: A Package for Frechet Analysis with Armadillo
+Title: A Package for Estimating Asymptotically Efficient Estimator for Frechet Distribution 
 Version: 0.1.0
-Author: Your Name
-Maintainer: Your Name <your.email@example.com>
-Description: This package provides tools for Frechet-based statistical analysis 
-    using Rcpp and RcppArmadillo for high-performance computation.
+Author: Sang Kyu Lee
+Maintainer: Sang Kyu Lee <lsk0816@gmail.com>
+Description: This package implements a function for estimating asymptotically efficient estimator for frechet distribution using Rcpp and RcppArmadillo. 
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
